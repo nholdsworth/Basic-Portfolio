@@ -1,5 +1,39 @@
+.wrapper{
+    width:60em;
+    background-image: url("../images/backgrounds/retina_wood/retina_wood.png ")
+}
+
 #top-bar{
-background-color: #ffffff;
-margin: 0 auto;
-padding: 3em;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+header{
+    float:left;
+    background-color:#4aaaa5;
+    margin: 0 auto;
+    width: 22em;
+    text-align: center;
+    color: #ffffff;
+}
+
+#container{
+    clear: both;
+    background-color: #ffffff;
+    text-align: center;  
+}
+
+#about-me{
+    float: left;
+    color: #4aaaa5;
+    
+}
+
+#casual-pic-1{
+    float:left;
+}
+
+#paragraph1{
+    float: left;
 }
