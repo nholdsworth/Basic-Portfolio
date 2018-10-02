@@ -1,6 +1,6 @@
 body{
     background-image: url("../images/backgrounds/retina_wood/retina_wood.png ");
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .not-sure-i-need-this{
@@ -10,12 +10,14 @@ body{
 #top-bar{
     background-color: #ffffff;
     padding: 2.5em;
+    padding-bottom: 1.4em;
     border-bottom: solid;
     border-bottom-width: 0.0625em;
 }
 
 #go-here{
-    float: right;
+    position: relative;
+    left: 67.5em;
     clear: both;
 }
 
@@ -28,7 +30,7 @@ header{
     position: relative;
     margin: 0 auto;
     top: -3.595em;
-    left: 12em;
+    left: 17em;
     padding: 0.38em;
     background-color:#4aaaa5;
     width: 22em;
@@ -39,8 +41,9 @@ header{
 
 #page-contents{
     background-color: #ffffff;
-    width: 40em; 
-    margin: 2em;
+    margin: auto;
+    margin-top: 2em;
+    width: 60em; 
     padding: .75em;
     border-style: solid;
     border-width: .0625em;
