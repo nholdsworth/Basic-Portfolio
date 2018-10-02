@@ -23,22 +23,24 @@ body{
 }
 
 header{
-    clear:both;
     float:left;
-    background-color:#4aaaa5;
+    position: relative;
     margin: 0 auto;
+    top: -4em;
+    left: 12em;
+    padding: 0.65em;
+    background-color:#4aaaa5;
     width: 22em;
     text-align: center;
     color: #ffffff;
-    position: absolute;
-    margin top:
+    clear: both;
 }
 
 #page-contents{
     background-color: #ffffff;
     width: 60em; 
+    margin: 20em;
     padding: .75em;
-    overflow: auto;
     border-style: solid;
     border-width: .0625em;
 }
