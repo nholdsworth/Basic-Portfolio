@@ -1,16 +1,17 @@
 body{
-    background-image: url("../images/backgrounds/retina_wood/retina_wood.png ")  
+    background-image: url("../images/backgrounds/retina_wood/retina_wood.png ");
+    margin: 0 auto; 
 }
 
-.notsureineedthis{
+.not-sure-i-need-this{
 
 }
 
 #top-bar{
     background-color: #ffffff;
-    margin: 0 auto;
     padding: 2.5em;
-    clear: both;
+    border-bottom: solid;
+    border-bottom-width: 0.0625em;
 }
 
 #go-here{
@@ -26,9 +27,9 @@ header{
     float:left;
     position: relative;
     margin: 0 auto;
-    top: -4em;
+    top: -3.595em;
     left: 12em;
-    padding: 0.65em;
+    padding: 0.38em;
     background-color:#4aaaa5;
     width: 22em;
     text-align: center;
@@ -38,11 +39,17 @@ header{
 
 #page-contents{
     background-color: #ffffff;
-    width: 60em; 
-    margin: 20em;
+    width: 40em; 
+    margin: 2em;
     padding: .75em;
     border-style: solid;
     border-width: .0625em;
+}
+
+#box1{
+    border-bottom: solid;
+    color: #dddddd;
+    padding: .3em;
 }
 
 /* I want to use the #aboutme tag but for some reason it doesn't change the color of the text unless I use the h2 selector??*/
