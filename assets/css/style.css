@@ -84,8 +84,6 @@ h2{
 
 footer{
     font-size: x-small;
-    position: relative;
-    top: 12.9em;
     border-top: solid;
     border-top-width: thick;
     border-color: #808080;
@@ -93,4 +91,8 @@ footer{
     color: #ffffff;
     background-color: #0cb9e8;
     padding: 2em;
+    /* I want this position to be fixed but it turns into a tiny box instead of being a long line */
+    position: relative;
+    bottom: 0;
+    margin-top: 28em;
 }
