@@ -93,7 +93,22 @@ footer{
     padding: 2em;
     padding-top:3em;
     /* I want this position to be fixed but it turns into a tiny box instead of being a long line */
-    position: relative;
+    position: fixed;
+    width: 100%;
     bottom: 0;
-    margin-top: 28em;
+    /* margin-top: 28em; */
+}
+
+/* this is the CSS for the contact section */
+
+#contact-contents{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 2em;
+    width: 60em; 
+    padding: 1em;
+    border-style: solid;
+    border-width: .0625em;
+    border-color: #666666;
+    /* overflow: auto; */
 }
