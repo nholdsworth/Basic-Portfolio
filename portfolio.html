@@ -13,12 +13,15 @@
 </head>
 
 <body>
-    <!-- I don't know if I need this div -->
-    <div class="not-sure-i-need-this">
+    <!-- this box is keeping the margins set for the elements it is holding -->
+    <div class="control-box"> 
         <!--this section tag I am hoping will help me seperate the top portion from the main page content   -->
-        <section id="top-bar">
-            <!-- these are the buttons to go to the different pages on my site -->
-            <ul class="nav"> 
+        <nav id="top-bar">
+
+            <ul class="directory"> 
+
+                <!-- these are the buttons to go to the different pages on my site -->                
+                <!-- I don't understand why I have to put them as a list instead of just anchor points with hrefs... -->
             
                 <li><a href="index.html">About</a></li>
 
@@ -30,7 +33,7 @@
 
                 <li><a href="contact.html">Contact</a></ll>
 
-            </ul>
+            </ul class= "directory">
             
             <header>
 
@@ -38,4 +41,6 @@
         
             </header>
 
-        </section>
+        </nav id="top-bar">
+
+    </div>

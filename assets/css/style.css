@@ -1,63 +1,60 @@
 body{
     background-image: url("../images/backgrounds/retina_wood/retina_wood.png ");
 }
-
-.not-sure-i-need-this{
-
-}
-
-#top-bar{
+/* this css styles an invisible box to control the margins for its child elements <ul> and <header> */
+.control-box{
+    width: 100%;
     background-color: #ffffff;
     border-bottom: solid;
     border-bottom-width: 0.0625em;
     border-color: #808080;
     overflow: auto;
-    position: relative;
 }
 
-.nav{
+#top-bar{
+    width: 60em;
+    margin: 0 auto;
+   
+}
+
+.directory{
     float: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     color: #0cb9e8;
-    margin-bottom: 2.33em;
-    margin-right: 22em; 
+    margin-top: 2em;
 }
 
-.nav li{
+.directory li{
     font-size: 1.2em;
     list-style: none;
     display: inline-block;
     color: #0cb9e8;
 }
 
-.nav a{
+.directory a{
     color: #0cb9e8
 }
 
 
 
 h1{
+    /* margin: 0 auto; */
     float:left;
     padding: 1em;
     background-color:#4aaaa5;
     font-size: 2em;
     text-align: center;
     color: #ffffff;
-    margin-left: 10.8em;
 }
 
 #page-contents{
     background-color: #ffffff;
     margin: auto;
     margin-top: 2em;
-    width: 60em; 
+    width: 58em; 
     padding: 1em;
     border-style: solid;
     border-width: .0625em;
     border-color: #666666;
-    clear: both;
 }
 
 #box1{
@@ -105,10 +102,9 @@ footer{
     background-color: #ffffff;
     margin: auto;
     margin-top: 2em;
-    width: 60em; 
+    width: 58em; 
     padding: 1em;
     border-style: solid;
     border-width: .0625em;
     border-color: #666666;
-    /* overflow: auto; */
 }
