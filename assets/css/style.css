@@ -104,7 +104,6 @@ footer{
     background-color: #0cb9e8;
     padding: 2em;
     padding-top:3em;
-    /* I want this position to be fixed but it turns into a tiny box instead of being a long line */
     position: fixed;
     width: 100%;
     bottom: 0;
