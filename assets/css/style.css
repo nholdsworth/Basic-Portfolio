@@ -1,5 +1,6 @@
 body{
     background-image: url("../images/backgrounds/retina_wood/retina_wood.png ");
+    margin-bottom: 5em;
 }
 /* this css styles an invisible box to control the margins for its child elements <ul> and <header> */
 .control-box{
@@ -138,7 +139,6 @@ form p{
 .text-box {
     width: 100%;
     padding: 0.75em 0em;
-
 }
 #message-box{
     height: 12.5em;
