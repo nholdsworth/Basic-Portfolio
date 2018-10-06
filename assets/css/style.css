@@ -10,27 +10,27 @@ body{
     border-color: #808080;
     overflow: auto;
 }
-
+/* this is the div container for the directory and the header */
 #top-bar{
     width: 60em;
     margin: 0 auto;
    
 }
-
+/* this styles the untitled list tag elements */
 .directory{
     float: right;
     color: #0cb9e8;
     margin-top: 2em;
 }
-
+/* styles the li html properties inside of ul class="directory" */
 .directory li{
     font-size: 1.2em;
     list-style: none;
     display: inline-block;
     color: #0cb9e8;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+/* styles the a property inside the directory class */
 .directory a{
     color: #0cb9e8
 }
@@ -59,6 +59,10 @@ h1{
     border-color: #666666;
 }
 
+#page-contents p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* this div holds the about me text */
 #box1{
     border-bottom: solid;
     color: #cccccc;
@@ -69,6 +73,7 @@ h2{
     color: #4aaaa5;
     font-size: 2em;
     margin-bottom: 0.75em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #pic1{
@@ -83,6 +88,7 @@ h2{
 
 footer{
     font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
     border-top: solid;
     border-top-width: thick;
     border-color: #808080;
@@ -95,6 +101,7 @@ footer{
     position: fixed;
     width: 100%;
     bottom: 0;
+
     /* margin-top: 28em; */
 }
 
