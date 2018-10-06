@@ -39,7 +39,7 @@ body{
 }
 
 .directory a:hover{
-    color: #b419ad;
+    color: #f700ff;
     font-size: 1.2em;
 }
 
@@ -194,8 +194,9 @@ form p{
     border-style: solid;
     border-width: .0625em;
     border-color: #666666;
+    /* why is my last thumbnail not in container when I have overflow auto on?? */
 }
-
+/* this makes the image go behind the text banner */
 .gallery-image{
     z-index:-1;
 }
