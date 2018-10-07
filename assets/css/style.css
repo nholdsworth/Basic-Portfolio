@@ -111,7 +111,7 @@ footer{
     /* margin-top: 28em; */
 }
 
-/* this is the CSS for the contact section */
+/* CONTACT */
 
 #contact-box{
     background-color: #ffffff;
@@ -159,9 +159,9 @@ form p{
     background-color: #2d6e7f;
 }
 
-/* this is my CSS for the portfolio page */
-
-#thumbnail-box{
+/*PORTFOLIO */
+/* this is the container for everything */
+#gallery{
     background-color: #ffffff;
     margin: auto;
     margin-top: 2em;
@@ -185,6 +185,7 @@ form p{
     width: 100%;
     bottom: 0.5em;
 }
+
 /* this is my container class for the image and the text divs  */
 .thumbnail{
     float: left;
@@ -193,15 +194,22 @@ form p{
     border-style: solid;
     border-width: .0625em;
     border-color: #666666;
-    /* why is my last thumbnail not in container when I have overflow auto on?? */
+    overflow: auto;
+    /* not sure why my images are not filling the divs... */
+    object-fit: contain;
 }
+
 /* this makes the image go behind the text banner */
-.gallery-image{
+.gallery img{
     z-index:-1;
 }
-/* tutor gave me this to try but I don't really understant it so I left it out */
-/* .thumbnail:nth-child(even) {
-    margin-right: 40px;
-  } */
+
+#pic2, #pic3, #pic4{
+    transform: rotate(90deg);
+    /* not sure why my images are not filling the divs... */
+    object-fit: contain;
+    
+}
+
 
 
